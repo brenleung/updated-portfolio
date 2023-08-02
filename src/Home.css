@@ -36,7 +36,8 @@ p {
 }
 
 .hover:hover {
-    background-color:#c3c01f;
+    background-color:yellow;
+    color: black;
 }
 
 @media screen and (max-width: 480px) {
@@ -51,4 +52,8 @@ p {
     .img img {
         max-width: 100%;
     }
+}
+
+a {
+    color: yellow;
 }
