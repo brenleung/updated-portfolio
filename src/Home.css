@@ -43,6 +43,12 @@ p {
     color: black;
 }
 
+.text h2 {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 480px) {
     .home-col {
         flex-direction: column;

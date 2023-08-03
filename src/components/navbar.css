@@ -10,3 +10,9 @@
     width: 5%;
     margin: 5px;
 }
+
+@media screen and (max-width: 480px) {
+    .navbar img {
+        width: 20%;
+    }
+}
