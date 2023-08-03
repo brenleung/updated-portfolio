@@ -1,4 +1,4 @@
 html, body, #app, #app>div {
     height: 100%;
-    background-color: #072e3c
+    background-image: url('/src/imgs/noise.png')
 }
