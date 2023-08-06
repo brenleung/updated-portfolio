@@ -6,7 +6,7 @@ function Navbar() {
     return (
       <div className="navbar">
         <img src={logo} alt="logo"></img>
-        <p>This website is a work in progress.</p>
+        <p>This website is a work in progress. Links are not functional at this time.</p>
       </div>
     );
   }
