@@ -18,7 +18,7 @@ function Home() {
         </div>
         <div className="projects">
             <div className="text-2">
-                <h3>Here are some of my favorite projects:</h3>
+                <h3>Here is some of my best work:</h3>
             </div>
         </div>
       </div>

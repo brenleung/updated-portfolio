@@ -83,7 +83,11 @@ p {
 
     .projects {
         display: flex;
-        flex-direction: column;
+    }
+
+    .text-2 {
+        width: 80%;
+        display: block;
     }
 
     .projects h3 {
