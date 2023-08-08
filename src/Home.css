@@ -62,9 +62,18 @@ p {
     text-align: center; 
 }
 
+.projects h2, .projects p {
+    padding: 0% 10%;
+}
+
+.projects h2 {
+    color: #23596d;
+    margin-bottom: 0px;
+}
+
 .projects p {
     color: #23596d;
-    padding: 0% 10%;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 480px) {
@@ -97,6 +106,10 @@ p {
 
     .projects h3 {
         font-size: 40px;
+    }
+
+    .projects h2, .projects p {
+        padding: 0;
     }
 }
 

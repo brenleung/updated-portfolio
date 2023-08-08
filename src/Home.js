@@ -19,10 +19,17 @@ function Home() {
         <div className="projects">
             <div className="text-2">
                 <h3>Here is some of my best work:</h3>
-                <p>1. GluChart</p>
-                <p>2. Zion Lutheran Redesign</p>
-                <p>3. IELC</p>
-                <p>4. Age Predictor</p>
+                <h2>GluChart</h2>
+                <p>Machine learning application used to determine future glucose levels. Completed in 24 hours at HackDavis.</p>
+
+                <h2>Zion Lutheran Redesign</h2>
+                <p>Redesigned the website of my alma mater using HTML, CSS, and JavaScript. Currently functional using Netlify.</p>
+
+                <h2>IELC Website</h2>
+                <p>Website of a nonprofit located in Davis and was created by a team of fullstack developers in ~10 weeks.</p>
+
+                <h2>Age Predictor</h2>
+                <p>Created in under two hours, this simple JavaScript application calls upon an API to gather an age prediction based on your name.</p>
             </div>
         </div>
       </div>
