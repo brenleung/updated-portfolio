@@ -59,7 +59,12 @@ p {
 
 .projects h3 {
     color: #23596d;
-    text-align: center;
+    text-align: center; 
+}
+
+.projects p {
+    color: #23596d;
+    padding: 0% 10%;
 }
 
 @media screen and (max-width: 480px) {
@@ -88,7 +93,6 @@ p {
 
     .text-2 {
         width: 80%;
-        display: block;
     }
 
     .projects h3 {

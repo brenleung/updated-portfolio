@@ -19,6 +19,10 @@ function Home() {
         <div className="projects">
             <div className="text-2">
                 <h3>Here is some of my best work:</h3>
+                <p>1. GluChart</p>
+                <p>2. Zion Lutheran Redesign</p>
+                <p>3. IELC</p>
+                <p>4. Age Predictor</p>
             </div>
         </div>
       </div>
