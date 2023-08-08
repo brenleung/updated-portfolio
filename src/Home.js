@@ -20,7 +20,7 @@ function Home() {
             <div className="text-2">
                 <h3>Here is some of my best work:</h3>
                 <h2>GluChart</h2>
-                <p>Machine learning application used to determine future glucose levels. Completed in 24 hours at HackDavis.</p>
+                <p>Machine learning application used to determine future glucose levels. Completed in 24 hours at HackDavis. Won Best Hack for Social Good and Best Healthcare Hack.</p>
 
                 <h2>Zion Lutheran Redesign</h2>
                 <p>Redesigned the website of my alma mater using HTML, CSS, and JavaScript. Currently functional using Netlify.</p>
