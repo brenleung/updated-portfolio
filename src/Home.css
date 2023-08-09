@@ -87,7 +87,7 @@ p {
 }
 
 .drop-in {
-    animation: drop-in 2s ease 200ms backwards;
+    animation: drop-in 1800ms ease 200ms backwards;
 }
 
 .drop-in h3 {
@@ -95,7 +95,7 @@ p {
 }
 
 .drop-in-2 {
-    animation: drop-in 2200ms ease 1200ms backwards;
+    animation: drop-in 2000ms ease 1200ms backwards;
 }
 
 .drop-in-2 p {
