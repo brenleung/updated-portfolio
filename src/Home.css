@@ -80,6 +80,40 @@ p {
     margin-top: 5px;
 }
 
+/* animation class and keyframes */
+.overflow-hidden {
+    overflow: hidden;
+    margin: 0;
+}
+
+.drop-in {
+    animation: drop-in 2s ease 200ms backwards;
+}
+
+.drop-in h3 {
+    margin-bottom: 0;
+}
+
+.drop-in-2 {
+    animation: drop-in 2200ms ease 1200ms backwards;
+}
+
+.drop-in-2 p {
+    margin-bottom: 0;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+
 @media screen and (max-width: 480px) {
     .home-col {
         flex-direction: column;
