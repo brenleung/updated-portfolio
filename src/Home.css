@@ -38,6 +38,7 @@ h3 {
 
 h2 {
     font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
 }
 
 p {
@@ -72,7 +73,6 @@ p {
 .projects h2 {
     color: #23596d;
     margin-bottom: 0px;
-    font-weight: bold;
 }
 
 .projects p {
@@ -118,5 +118,6 @@ p {
 }
 
 a {
-    color:#ed8772;
+    color: #eeecdd;
+    text-decoration: none;
 }
