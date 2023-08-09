@@ -95,7 +95,15 @@ p {
 }
 
 .drop-in-2 {
-    animation: drop-in 2000ms ease 1200ms backwards;
+    animation: drop-in 2000ms ease 1000ms backwards;
+}
+
+.drop-in-2 a {
+    color: #23596d;
+}
+
+.drop-in-2 a:hover {
+    font-style: italic;
 }
 
 .drop-in-2 p {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import personal_photo from './imgs/photo.png'
+import personal_photo from './imgs/photo.png';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -16,7 +17,7 @@ function Home() {
                 <div className="overflow-hidden drop-in-2">
                     <p>I'm from <span style={{color: '#AA0000'}}>San Francisco</span> and am an incoming fourth year computer science student at UC Davis specializing in <span className="hover">frontend development</span>, <span className="hover">fullstack development</span>, and <span className="hover">education</span>.</p>
                     <p>My story, however, doesn't stop there..</p>
-                    <h2>Learn more about my story ➩</h2>
+                    <Link to="/"><h2>Learn more about my story ➩</h2></Link>
                 </div>
             </div>
         </div>
