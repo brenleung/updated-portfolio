@@ -53,8 +53,7 @@ p {
 
 .hover:hover {
     text-decoration: underline;
-    background-color:yellow;
-    color: black;
+    color: #3684a0;
 }
 
 .text h2 {
@@ -125,7 +124,6 @@ p {
         transform: translate(0px);
     }
 }
-
 
 @media screen and (max-width: 480px) {
     .home-col {
