@@ -1,0 +1,59 @@
+.project-box {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 12%;
+    align-items: center;
+    border-radius: 25px;
+    border-width: thick;
+    border: solid;
+    background-image: url('/src/imgs/noise.png');
+    margin-bottom: 1.5%;
+}
+
+.project-box:hover {
+    filter: drop-shadow(5px 5px 5px gray);
+}
+
+.proj-photo img{
+    width: 300px;
+    border-radius: 20px;
+    display: block;
+}
+
+.proj-text h2, .proj-text p{
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+.tags {
+    display: flex; /* To arrange the tags horizontally */
+    padding-left: 5%;
+    gap: 5px; /* Add some spacing between the tags */
+    left: 5%; /* Adjust the horizontal position of the tags */
+    flex-wrap: wrap; /* Allow tags to wrap to the next line */
+    row-gap: 0;
+}
+
+.tags p {
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 20px; /* Make them pill-like */
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .project-box {
+        flex-direction: column;
+        margin: 0% 5%;
+        margin-bottom: 5%;
+        border-radius: 0;
+    }
+
+    .proj-photo img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
