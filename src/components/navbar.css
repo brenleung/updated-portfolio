@@ -2,18 +2,63 @@
     background-color: #23596d;
     color: #eeecdd;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    overflow-x: auto;
+    padding: 0% 5%;
 }
 
 .navbar img {
-    width: 15%;
-    margin: 5px;
+    width: 20%;
+    margin: 18px;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; /* Prevent list items from wrapping */
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #eeecdd;
+}
+
+.navbar-temp {
+    display: none;
 }
 
 @media screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px; /* Add some padding for spacing */
+    }
+
     .navbar img {
         width: 50%;
         margin: 0px 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack items vertically */
+        margin: 0;
+        display: none;
+    }
+
+    .navbar ul li {
+        margin-right: 0;
+    }
+
+    .navbar-temp {
+        display: flex;
     }
 }

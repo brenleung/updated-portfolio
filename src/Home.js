@@ -24,7 +24,7 @@ function Home() {
                 <div className="overflow-hidden drop-in-2">
                     <p>I'm from <span style={{color: '#AA0000'}}>San Francisco</span> and am an incoming fourth year computer science student at UC Davis specializing in <span className="hover">frontend development</span>, <span className="hover">fullstack development</span>, and <span className="hover">education</span>.</p>
                     <p>My story, however, doesn't stop there..</p>
-                    <Link to="/"><h2>Learn more about my story ➩</h2></Link>
+                    <Link to="/about-me"><h2>Learn more about my story ➩</h2></Link>
                 </div>
             </div>
         </div>
