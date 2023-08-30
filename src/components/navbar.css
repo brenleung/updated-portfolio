@@ -60,5 +60,6 @@
 
     .navbar-temp {
         display: flex;
+        margin: 10px;
     }
 }
