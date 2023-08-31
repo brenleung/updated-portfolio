@@ -38,32 +38,46 @@
     color: #d4d2c4;
 }
 
-.navbar-temp {
+.menu {
     display: none;
 }
 
 @media screen and (max-width: 480px) {
     .navbar {
-        padding: 10px; /* Add some padding for spacing */
+        padding: 15px; /* Add some padding for spacing */
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .top-bar {
+        display: flex;
+        flex-direction: row;
     }
 
     .navbar img {
-        width: 50%;
+        width: 30%;
         margin: 0px 10px;
     }
 
     .navbar ul {
         flex-direction: column; /* Stack items vertically */
+        width: 100%;
         margin: 0;
         display: none;
     }
 
-    .navbar ul li {
-        margin-right: 0;
+    .navbar ul.open {
+        display: flex;
     }
 
-    .navbar-temp {
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu {
         display: flex;
-        margin: 10px;
+        align-items: center;
+        padding: 2%;
     }
 }
