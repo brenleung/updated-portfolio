@@ -34,6 +34,10 @@
     color: #eeecdd;
 }
 
+.navbar ul li a:hover {
+    color: #d4d2c4;
+}
+
 .navbar-temp {
     display: none;
 }
