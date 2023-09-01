@@ -68,6 +68,17 @@
 
     .navbar ul.open {
         display: flex;
+        animation-duration: 1.2s;
+        animation-name: slideDown;
+    }
+
+    @keyframes slideDown {
+        from {
+            max-height: 0;
+        }
+        to {
+            max-height: 500px;
+        }
     }
 
     .navbar ul li {
