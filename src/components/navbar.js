@@ -3,7 +3,7 @@ import './navbar.css';
 import logo from '../imgs/updated-logo.png';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);  // default for menu being open is false
@@ -18,7 +18,8 @@ function Navbar() {
             <Link to="/"><img src={logo} alt="logo"></img></Link>
 
             <div className="menu" onClick={() => {setMenuOpen(!menuOpen)}}>
-                <FontAwesomeIcon icon={faBars} size="xl" />
+                <FontAwesomeIcon icon={faBars} size="xl" className={menuOpen ? "closed" : "open"} />
+                <FontAwesomeIcon icon={faXmark} size="xl" className={menuOpen ? "open" : "closed" } />
             </div>
         </div>
         
