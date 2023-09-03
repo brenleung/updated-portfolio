@@ -102,7 +102,7 @@ p {
     color: #23596d;
 }
 
-.drop-in-2 a:hover {
+.drop-in-2 a:hover, .contact-link a:hover {
     color: #3684a0;
 }
 
