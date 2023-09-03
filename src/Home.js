@@ -47,6 +47,11 @@ function Home() {
                 <Link to="/"><ProjectBox image={age_predictor} title={"Age Predictor"} tag1={"REACT.JS"} tag2={"API"} tag3={"USER-FRIENDLY"} description={"Created in under two hours, this simple JavaScript application calls upon an API to gather an age prediction based on your name."}/></Link>
             </div>
         </div>
+
+        <div className="contact-link">
+            <h3>Like what you see?</h3>
+            <p>Feel free to view more of <Link to="/projects">my work</Link>, view <Link to="/resume">my resume</Link>, or <Link to="/contact">contact me</Link>.</p>
+        </div>
       </div>
     );
   }
