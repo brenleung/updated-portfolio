@@ -27,7 +27,6 @@
 .text {
     width: 50%; /* Set the width of the text area */
     margin-right: 5%;
-    color: #23596d;
 }
 
 h3 {
@@ -51,18 +50,12 @@ p {
     font-weight: bolder;
 }
 
-/* .hover:hover {
-    text-decoration: underline;
-    color: #3684a0;
-} */
-
 .text h2 {
     font-size: 20px;
     text-decoration: underline;
 }
 
 .projects h3 {
-    color: #23596d;
     text-align: center; 
 }
 
@@ -71,12 +64,10 @@ p {
 }
 
 .projects h2 {
-    color: #23596d;
     margin-bottom: 0px;
 }
 
 .projects p {
-    color: #23596d;
     margin-top: 5px;
 }
 
@@ -117,7 +108,6 @@ a {
 
 .contact-link {
     flex-direction: column;
-    color: #23596d;
     text-align: center;
 }
 
@@ -194,7 +184,10 @@ a {
 .temp {
     background-color: #be533e;
     text-align: center;
-    color: #eeecdd;
     padding: 0.1% 0%;
+}
+
+.temp p {
+    color: #eeecdd;
 }
 /* TEMP TEXT CODE */

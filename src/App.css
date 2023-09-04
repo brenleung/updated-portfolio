@@ -2,3 +2,7 @@ html, body, #app, #app>div {
     height: 100%;
     background-image: url('/src/imgs/noise.png')
 }
+
+h3, h2, h1, p {
+    color: #23596d;
+}

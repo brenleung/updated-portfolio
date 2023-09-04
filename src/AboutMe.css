@@ -1,15 +1,14 @@
-.intro {
+.text-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3% 0%;
+    padding: 5% 0%;
 }
 
-.intro-text {
+.intro-text, .left-text, .right-text {
     text-align: left;
     width: 100%; /* Set the width of the text area */
     margin-right: 5%;
-    color: #23596d;
 }
 
 .intro-img {
@@ -38,7 +37,7 @@
     left: 200px;
 }
 
-.scratch-out {
+.scratch-out, .minesweeper-out {
     background-color: #f0caa4;
     display: flex;
     margin: 5% auto;
@@ -50,24 +49,28 @@
     animation: fadeIn 800ms ease-in-out 2500ms forwards;
 }
 
-.scratch-out p {
+.scratch-out p, .minesweeper-out p {
     padding-right: 2%;
     text-align: center;
 }
 
-.scratch-out a {
+.scratch-out a, .minesweeper-out a {
     font-weight: bolder;
     text-decoration: underline;
     color: #23596d;
 }
 
-.scratch-out a:hover {
+.scratch-out a:hover, .minesweeper-out a:hover {
     color: #87bcc7;
 }
 
-.scratch-out img {
+.scratch-out img, .minesweeper-out img {
     padding: 2%;
     width: 10%;
+}
+
+.minesweeper-out {
+    background-color: rgb(195, 191, 191);
 }
 
 @keyframes fadeIn {
@@ -91,15 +94,70 @@
     color: #F7AD19;
 }
 
+.left-text {
+    margin-left: 5%;
+    margin-right: 0;
+    width: 70%;
+}
+
+.right-text {
+    margin-right: 5%;
+    margin-left: 0;
+    width: 100%;
+}
+
+.right-img, .left-img {
+    padding-top: 5%;
+}
+
+.right-img img, .left-img img {
+    max-width: 70%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(5px 5px 5px gray);
+}
+
+.left-img {
+    width: 80%;
+}
+
+.left-img img {
+    max-width: 60%;
+}
+
+.caption {
+    font-size: 15px;
+    text-align: center;
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photo-grid:last-child {
+    margin-bottom: 5%;
+}
+
 /* MOBILE CODE */
 @media screen and (max-width: 480px) {
-    .intro {
+    .text-div {
         flex-direction: column;
         padding-top: 5%;
         padding-bottom: 0%;
     }
 
-    .intro-text {
+    .text-div:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+    .intro-text, .left-text, .right-text {
+        margin-left: 0;
         margin-right: 0;
         width: 80%;
     }
@@ -120,12 +178,25 @@
         left: 115px;
     }
 
-    .scratch-out {
+    .scratch-out, .minesweeper-out {
         width: 100%;
     }
 
-    .scratch-out img {
+    .scratch-out img, .minesweeper-out img {
         width: 20%;
         padding-left: 5%;
+    }
+
+    .left-img img {
+        max-width: 80%;
+    }
+
+    .photo-grid {
+        flex-direction: column;
+    }
+
+    .photo-txt {
+        margin: 5% auto;
+        width: 80%;
     }
 }

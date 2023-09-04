@@ -13,9 +13,6 @@ import age_predictor from './imgs/agepredictor.jpg';
 function Home() {
     return (
       <div>
-        <div className="temp">
-            <p>⚠️ This website is still under construction. Links are not functional at this time.</p>
-        </div>
         <div className="home-col">
             <div className="img">
                 <img src={personal_photo} alt="me"></img>

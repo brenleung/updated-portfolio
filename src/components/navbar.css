@@ -8,6 +8,10 @@
     padding: 0% 5%;
 }
 
+.navbar p {
+    color: #eeecdd;
+}
+
 .navbar img {
     width: 20%;
     margin: 18px;
