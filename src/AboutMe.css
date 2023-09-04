@@ -1,0 +1,131 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0%;
+}
+
+.intro-text {
+    text-align: left;
+    width: 100%; /* Set the width of the text area */
+    margin-right: 5%;
+    color: #23596d;
+}
+
+.intro-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.intro-img img {
+    max-width: 50%;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    filter: drop-shadow(5px 5px 5px gray);
+}
+
+.intro-img img:first-child {
+    z-index: 1;
+    top: -250px;
+    left: 150px;
+}
+
+.intro-img img:last-child {
+    z-index: 2;
+    top: 0px;
+    left: 200px;
+}
+
+.scratch-out {
+    background-color: #f0caa4;
+    display: flex;
+    margin: 5% auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 20px;
+    opacity: 0;
+    animation: fadeIn 800ms ease-in-out 2500ms forwards;
+}
+
+.scratch-out p {
+    padding-right: 2%;
+    text-align: center;
+}
+
+.scratch-out a {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #23596d;
+}
+
+.scratch-out a:hover {
+    color: #87bcc7;
+}
+
+.scratch-out img {
+    padding: 2%;
+    width: 10%;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold.green {
+    color: #4a6f28;
+}
+
+.bold.orange {
+    color: #F7AD19;
+}
+
+/* MOBILE CODE */
+@media screen and (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+
+    .intro-text {
+        margin-right: 0;
+        width: 80%;
+    }
+
+    .intro-img img {
+        display: flex;
+        position: relative;
+        max-width: 60%;
+    }
+
+    .intro-img img:first-child {
+        top: 20px;
+        left: 45px;
+    }
+
+    .intro-img img:last-child {
+        top: -20px;
+        left: 115px;
+    }
+
+    .scratch-out {
+        width: 100%;
+    }
+
+    .scratch-out img {
+        width: 20%;
+        padding-left: 5%;
+    }
+}
