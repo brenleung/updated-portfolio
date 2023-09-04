@@ -34,7 +34,7 @@ function AboutMe() {
                     <h3>It all started 10 years ago..</h3>
                 </div>
                 <div className="overflow-hidden drop-in-2">
-                    <p>I've always been a video game fiend, but the first game I ever latched onto was <span className="bold green">Minecraft</span>. Like many kids, this game was the source of all of my fun in my elementary years. I can't take tell you the amount of times I would spend 8-10 hours of my weekend playing this game with my friends. As entranced by gaming as I was, my mom decided to sign me up for a game design camp that summer.</p>
+                    <p>I've always had a knack for video games growing up, but no game caught my attention like <span className="bold green">Minecraft</span> has. Like many kids, this game was the source of all of my fun in my elementary years. I can't take tell you the amount of times I would spend 8-10 hours of my weekend playing this game with my friends. As entranced by gaming as I was, my mom decided to sign me up for a game design camp that summer.</p>
                     <p>Thus began my first experience with <span className="bold orange">Scratch</span>, and my love for coding was born. That summer, I worked on games both in and out of the classroom and eventually asked myself the question, <span className="bold">"When can I make games like <span style={italicStyle}>this</span> for a living?"</span></p>
                 </div>
                 <div className="scratch-out">
