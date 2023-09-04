@@ -52,7 +52,7 @@ function AboutMe() {
                     <img src={minesweeper} alt="minesweeper logo"></img>
                     <p>Play one of my favorite programs from APCS that I made, <a href="https://brenleung.github.io/Minesweeper/" target="_blank" rel="noreferrer">Minesweeper!</a></p>
                 </div>
-                <p>While there are many paths in computer science, it is not until very recently that I discovered what I am passionate about. This past year, I discovered I am interested in <span className="bold">frontend and fullstack development.</span> I took opprotunities, both solo and team-oriented, to further my growth as a developer in these areas. These include but are not limited to designing my first portfolio in HTML/CSS, creating a website for a nonprofit with a club on-campus, and participating (and <span style={italicStyle}>winning</span>) my first hackathon! </p>
+                <p>While there are many paths in computer science, it is not until very recently that I discovered what I am passionate about. This past year, I discovered I am interested in <span className="bold">frontend and fullstack development.</span> I took opportunities, both solo and team-oriented, to further my growth as a developer in these areas. These include but are not limited to designing my first portfolio in HTML/CSS, creating a website for a nonprofit with a club on-campus, and participating (and <span style={italicStyle}>winning</span>) my first hackathon! </p>
                 <p>However, that is not the only thing I'm passionate about..</p>
             </div>
             <div className="right-img">
@@ -73,7 +73,7 @@ function AboutMe() {
                     <img src={scratch} alt="scratch logo"></img>
                     <p>Play a <a href="https://scratch.mit.edu/projects/721398119/embed" target="_blank" rel="noreferrer">target practice</a> game that I got to teach to students at EDMO!</p>
                 </div>
-                <p>Since that summer, I've held other education opprotunities, being a coding instructor for WhizKidz Computer Center and most recently, a tech instructor assistant at TechKnowHow. Being able to combine two passions that I have (coding and education) has honestly been <span className="bold">a dream come true.</span></p>
+                <p>Since that summer, I've held other education opportunities, being a coding instructor for WhizKidz Computer Center and most recently, a tech instructor assistant at TechKnowHow. Being able to combine two passions that I have (coding and education) has honestly been <span className="bold">a dream come true.</span></p>
                 <p>I realized that I also have a passion for education and being able to work with the next generation. As I venture through this next chapter in my life, I'm keeping an open attitude to jobs in frontend/fullstack development, but also in education as well.</p>
             </div>
         </div>
