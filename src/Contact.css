@@ -1,0 +1,46 @@
+.contact {
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-div a {
+    color: #23596d;
+}
+
+.logo-div a:first-child:hover {
+    color: #0077b5;
+}
+
+.logo-div a:nth-child(2):hover {
+    color: black;
+}
+
+.logo-div a:nth-child(3):hover {
+    color: #E1306C;
+}
+
+.logo-div a:last-child:hover {
+    color: #c71610;
+}
+
+.logo {
+    margin: 0% 0.3%;
+}
+
+@media screen and (max-width: 480px) {
+    .contact {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin: 0% 1%;
+    }
+}
