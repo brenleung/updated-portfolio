@@ -52,7 +52,7 @@ function AboutMe() {
                     <img src={minesweeper} alt="minesweeper logo"></img>
                     <p>Play one of my favorite programs from APCS that I made, <a href="https://brenleung.github.io/Minesweeper/" target="_blank" rel="noreferrer">Minesweeper!</a></p>
                 </div>
-                <p>While there are many paths in computer science, it is not until very recently that I discovered what I am passionate about. This past year, I discovered I am interested in <span className="bold">frontend and fullstack development.</span> I took opportunities, both solo and team-oriented, to further my growth as a developer in these areas. These include but are not limited to designing my first portfolio in HTML/CSS, creating a website for a nonprofit with a club on-campus, and participating (and <span style={italicStyle}>winning</span>) my first hackathon! </p>
+                <p>While there are many paths in computer science, it is not until very recently that I discovered what I am passionate about. This past year, I discovered I am interested in <span className="bold">frontend and fullstack development.</span> I took opportunities, both solo and team-oriented, to further my growth as a developer in these areas. These include but are not limited to designing my first portfolio in HTML/CSS, creating a website for a nonprofit with a club on-campus, and participating in (and <span style={italicStyle}>winning</span>) my first hackathon! </p>
                 <p>However, that is not the only thing I'm passionate about..</p>
             </div>
             <div className="right-img">
