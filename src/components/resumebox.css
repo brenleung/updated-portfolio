@@ -1,0 +1,52 @@
+.resume-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 0%;
+}
+
+.resume-box p, .resume-box h2 {
+    margin: 0;
+}
+
+.title {
+    padding: 0% 2%;
+}
+
+.title h2 {
+    font-size: 25px;
+}
+
+.title-company {
+    font-style: italic;
+}
+
+.year {
+    width: 20%;
+}
+
+.title {
+    width: 35%;
+}
+
+.desc {
+    width: 45%;
+}
+
+@media screen and (max-width: 480px) {
+    .resume-box {
+        flex-direction: column;
+    }
+
+    .year, .title, .desc {
+        width: 100%;
+    }
+
+    .desc {
+        font-size: 17px;
+    }
+
+    .title {
+        padding: 2% 0%;
+    }
+}
