@@ -1,0 +1,60 @@
+.exp-box {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0% 2%;
+    padding: 4%;
+    border-radius: 20px;
+}
+
+.exp-box:hover {
+    background-image: url('/src/imgs/noise2.png');
+    filter: drop-shadow(3px 3px 3px gray);
+    transform: translateY(-20px);
+}
+
+.exp-photo img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.exp-tags {
+    display: flex; /* To arrange the tags horizontally */
+    gap: 5px; /* Add some spacing between the tags */
+    left: 5%; /* Adjust the horizontal position of the tags */
+    flex-wrap: wrap; /* Allow tags to wrap to the next line */
+    row-gap: 0;
+}
+
+.exp-tags p {
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 20px; /* Make them pill-like */
+    margin: 5px 0;
+}
+
+.exp-text h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.exp-text p {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .exp-box {
+        width: 95%;
+        margin: 3% 0%;
+        padding: 3%;
+    }
+
+    .exp-photo img {
+        width: 90%;
+    }
+}

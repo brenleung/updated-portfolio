@@ -1,0 +1,40 @@
+.projects-page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-page h3 {
+    text-align: center;
+}
+
+.projects-row {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 auto;
+}
+
+/* TEMP TEXT CODE */
+.temp {
+    background-color: #be533e;
+    text-align: center;
+    padding: 0.1% 0%;
+}
+
+.temp p {
+    color: #eeecdd;
+}
+/* TEMP TEXT CODE */
+
+@media screen and (max-width: 480px) {
+    .projects-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .temp p {
+        padding: 0% 5%;
+    }
+}
