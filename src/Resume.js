@@ -22,7 +22,7 @@ function Resume() {
     const secTitles = ["WORK EXPERIENCE", "EDUCATION", "AWARDS"];  // titles for h3
 
     return (
-        <div className="resume">
+        <div className="resume drop-in">
             <div className="top-bar">
                 <h3>{secTitles[currentSec-1]}</h3>
                 <div className="arrows">

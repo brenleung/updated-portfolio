@@ -7,7 +7,7 @@ import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact drop-in">
         <h3>Let's get in touch! ☕</h3>
         <p>Feel free to reach out to me on any of these platforms. I will do my best to respond within 24 hours.</p>
         <div className="logo-div">

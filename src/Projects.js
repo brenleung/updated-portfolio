@@ -20,7 +20,7 @@ function Projects() {
     <div className="temp">
         <p>⚠️ This page is a work in progress. Currently, links are not functional.</p>
     </div>
-    <div className="projects-page">
+    <div className="projects-page drop-in">
         <h3>Projects 👨🏻‍💻</h3>
         <div className="projects-row">
             <Link to="/"><ExpBox image={GluChart} title="GluChart 🏆" tag1="REACT.JS" tag2="TEAM PROJECT" tag3="AWARD WINNING" desc="Machine learning application used to determine future glucose levels. Completed in 24 hours at HackDavis. Won Best Hack for Social Good and Best Healthcare Hack."/></Link>
