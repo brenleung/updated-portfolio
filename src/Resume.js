@@ -5,7 +5,7 @@ import ResumePDF from '../src/imgs/resume.pdf';
 import ResumeBox from './components/resumebox';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight, faExternalLink } from "@fortawesome/free-solid-svg-icons";
 
 function Resume() {
     const [currentSec, setCurrentSec] = useState(1);  // by default, showing work experience
@@ -24,7 +24,10 @@ function Resume() {
     return (
         <div className="resume drop-in">
             <div className="top-bar">
-                <h3>{secTitles[currentSec-1]}</h3>
+                <div className="title-sec">
+                    <h3>{secTitles[currentSec-1]}</h3>
+                    <p><a href={ResumePDF} target="_blank" rel="noreferrer">PDF Version  <FontAwesomeIcon icon={faExternalLink} size="l" /></a></p>
+                </div>
                 <div className="arrows">
                     <FontAwesomeIcon icon={faArrowLeft} size="2x" className={`arrow-icon ${currentSec === 1 ? 'disabled' : ''}`} onClick={() => handleArrowClick('left')}/>
                     <p>{`${currentSec}`}/3</p>
@@ -73,7 +76,6 @@ function Resume() {
             )}
             
             <hr></hr>
-            <p>For a PDF version of my resume, click <a href={ResumePDF} target="_blank" rel="noreferrer">here</a>.</p>
         </div>
     );
 }
