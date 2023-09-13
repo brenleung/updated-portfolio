@@ -32,16 +32,16 @@ function Home() {
             <div className="text-2">
                 <h3>Here is some of my best work:</h3>
 
-                <Link to="/"><ProjectBox image={gluchart} title={"GluChart"} tag1={"REACT.JS"} tag2={"TEAM PROJECT"}
+                <Link to="/projects/gluchart"><ProjectBox image={gluchart} title={"GluChart"} tag1={"REACT.JS"} tag2={"TEAM PROJECT"}
                 tag3={"AWARD WINNING"} description={"Machine learning application used to determine future glucose levels. Completed in 24 hours at HackDavis. Won Best Hack for Social Good and Best Healthcare Hack."}/></Link>
                 
-                <Link to="/"><ProjectBox image={zion} title={"Zion Lutheran Redesign"} tag1={"HTML"} tag2={"CSS"}
+                <Link to="/projects/zls-redesign"><ProjectBox image={zion} title={"Zion Lutheran Redesign"} tag1={"HTML"} tag2={"CSS"}
                 tag3={"USER-FRIENDLY"} description={"Redesigned the website of my alma mater using HTML, CSS, and JavaScript. Currently functional using Netlify."}/></Link>
 
-                <Link to="/"><ProjectBox image={ielc} title={"Interactive Elementary Learning Center"} tag1={"REACT.JS"} tag2={"NODE.JS"}
+                <Link to="/projects/ielc"><ProjectBox image={ielc} title={"Interactive Elementary Learning Center"} tag1={"REACT.JS"} tag2={"NODE.JS"}
                 tag3={"TEAM PROJECT"} description={"Website of a nonprofit located in Davis and was created by a team of fullstack developers in ~10 weeks. Was created as a part of the UC Davis organization #include."}/></Link>
 
-                <Link to="/"><ProjectBox image={age_predictor} title={"Age Predictor"} tag1={"REACT.JS"} tag2={"API"} tag3={"USER-FRIENDLY"} description={"Created in under two hours, this simple JavaScript application calls upon an API to gather an age prediction based on your name."}/></Link>
+                <Link to="/projects/age-predictor"><ProjectBox image={age_predictor} title={"Age Predictor"} tag1={"REACT.JS"} tag2={"API"} tag3={"USER-FRIENDLY"} description={"Created in under two hours, this simple JavaScript application calls upon an API to gather an age prediction based on your name."}/></Link>
             </div>
         </div>
 
