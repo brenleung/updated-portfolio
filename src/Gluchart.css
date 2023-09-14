@@ -1,0 +1,101 @@
+.proj {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5% 0%;
+    flex-direction: column;
+}
+
+.proj-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.proj-header img {
+    width: 13%;
+    border-radius: 20px;
+    margin-right: 2%;
+}
+
+.proj-header-text {
+    width: 87%;
+}
+
+.proj-tags {
+    display: flex; /* To arrange the tags horizontally */
+    gap: 5px; /* Add some spacing between the tags */
+    left: 5%; /* Adjust the horizontal position of the tags */
+    flex-wrap: wrap; /* Allow tags to wrap to the next line */
+    row-gap: 0;
+}
+
+.proj-tags p {
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 20px; /* Make them pill-like */
+    margin: 5px 0;
+}
+
+.proj-about {
+    display: flex;
+    flex-direction: row;
+}
+
+.proj-about-sec {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.proj-about-sec h2 {
+    margin-bottom: 0;
+}
+
+.proj-about-sec p {
+    margin: 0;
+}
+
+.proj-about-icon {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.proj-about-icon:hover {
+    color: rgb(82, 80, 80);
+}
+
+.proj-sec h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.proj-sec p {
+    margin-top: 10px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    .proj-header {
+        flex-direction: column;
+    }
+    .proj-header img {
+        width: 50%;
+    }
+    .proj-header-text {
+        width: 100%;
+    }
+    .proj-header-text h3{
+        margin-top: 10px;
+    }
+    .proj-about {
+        flex-direction: column;
+    }
+}
