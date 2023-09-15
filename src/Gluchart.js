@@ -2,6 +2,9 @@ import React from 'react';
 import './Gluchart.css';
 
 import GluChart from './imgs/gluchart-2.png';
+import GluChartSketch from './imgs/gluchart-first-sketch.png';
+import ColorPalette from './imgs/color-palette.jpg';
+import ApreeHealth from './imgs/apree-health.png';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faDev } from "@fortawesome/free-brands-svg-icons";
@@ -54,6 +57,8 @@ function Gluchart() {
             <p>Going into this hackathon, we wanted to tackle the barrier of healthcare and specifically, diabetes. Diabetes is a chronic condition that causes problems with the production of insulin, a hormone that our body uses to regulate our sugar levels. With little to no insulin being produced in the pancreas, patients with diabetes must regulate their glucose levels by directly injecting insulin.</p>
             <p>For those that have to self-administer insulin, this can be a problem. Users often have to guess how much/what type of insulin to inject before a meal. Putting in too little and the user has to have the inconvenience of injecting again. Putting in too much can bring sugar levels down to a dangerously low level, producing side effects as dangerous as a coma.</p>
             <p>We wanted to create a product that would provide a quick and reliable solution that could show diabetic users how much insulin to inject based on their current sugar levels and the (potential) amount of carbohydrates they were to ingest in their incoming meal. This application would be based on machine learning, being fed data of prior diabetic patients. If successful, this product aimed to vastly improve the quality of life for many diabetic patients who cannot afford automatic insulin injectors. Thus came the name GluChart, allowing users to see their current and future glucose levels on a chart.</p>
+            <img src={GluChartSketch} alt="Our first sketch!"></img>
+            <p className="caption">The developer's first sketches of the product's vision!</p>
         </div>
         <div className="proj-sec">
             <h2>The Tech Stack</h2>
@@ -61,7 +66,10 @@ function Gluchart() {
         </div>
         <div className="proj-sec">
             <h2>The Design</h2>
-            <p>We wanted a design that could be used on primarily mobile applications, since the idea was that users would be using this app on-the-go. We focused on a simplistic design that could be easily understood by people of all ages. We also wanted a color palette that would be easy on the eyes, as we wanted our users to remain calm while using our app.</p>
+            <p>We wanted a design that could be used on primarily mobile applications, since the idea was that users would be using this app on-the-go. We focused on a simplistic design that could be easily understood by people of all ages. Even though I was not a main designer on this project, I provided my input of how designs looked and provided feedback as needed.</p>
+            <p>One main decision was the color palette of the product. We wanted a color palette that would be easy on the eyes, as we wanted our users to remain calm while using our app. Looking at various websites related to health online, we noticed that these websites often used whites, greens, and blues to symbolize calamity. The last thing we would want to do as a health-related app was induce more stress.</p>
+            <img src={ApreeHealth}></img>
+            <p className="caption">An example of a website that had the color palette we were envisioning.</p>
         </div>
         <div className="proj-sec">
             <h2>Challenges While Coding</h2>

@@ -59,7 +59,7 @@
 }
 
 .proj-about-icon {
-    color: black;
+    color: 	#23596d;
     display: flex;
     flex-direction: row;
     margin-right: 10px;
@@ -78,6 +78,18 @@
     margin-top: 10px;
 }
 
+.proj-sec img {
+    display: flex;
+    margin: 0 auto;
+    width: 45%;
+    border-radius: 20px;
+}
+
+.proj-sec-img {
+    display: flex;
+    flex-direction: row;
+}
+
 .italics {
     font-style: italic;
 }
@@ -86,16 +98,28 @@
     .proj-header {
         flex-direction: column;
     }
+
     .proj-header img {
         width: 50%;
     }
+    
     .proj-header-text {
         width: 100%;
     }
+
     .proj-header-text h3{
         margin-top: 10px;
     }
+
     .proj-about {
+        flex-direction: column;
+    }
+
+    .proj-sec img {
+        width: 100%;
+    }
+
+    .proj-sec-img {
         flex-direction: column;
     }
 }
