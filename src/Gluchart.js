@@ -5,6 +5,9 @@ import GluChart from './imgs/gluchart-2.png';
 import GluChartSketch from './imgs/gluchart-first-sketch.png';
 import ColorPalette from './imgs/color-palette.jpg';
 import ApreeHealth from './imgs/apree-health.png';
+import GluChartChart from './imgs/GluchartChart.jpg';
+import iPhoneDesign from './imgs/iPhoneDesign1.png';
+import GluChartGroup from './imgs/GluchartGroup (1).png';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faDev } from "@fortawesome/free-brands-svg-icons";
@@ -68,23 +71,31 @@ function Gluchart() {
             <h2>The Design</h2>
             <p>We wanted a design that could be used on primarily mobile applications, since the idea was that users would be using this app on-the-go. We focused on a simplistic design that could be easily understood by people of all ages. Even though I was not a main designer on this project, I provided my input of how designs looked and provided feedback as needed.</p>
             <p>One main decision was the color palette of the product. We wanted a color palette that would be easy on the eyes, as we wanted our users to remain calm while using our app. Looking at various websites related to health online, we noticed that these websites often used whites, greens, and blues to symbolize calamity. The last thing we would want to do as a health-related app was induce more stress.</p>
-            <img src={ApreeHealth}></img>
+            <img src={ApreeHealth} alt="apree"></img>
             <p className="caption">An example of a website that had the color palette we were envisioning.</p>
+            <p>Our main designer, Sri, spent a good few hours in the beginning time of our project to create our frameworks on Figma. Much credit to him for creating such an excellent design that portrayed our product well!</p>
+            <img src={iPhoneDesign} className="iphone"></img>
+            <p className="caption">The final product before we started coding!</p>
         </div>
         <div className="proj-sec">
             <h2>Challenges While Coding</h2>
             <p>Although it wasn't my first time using React, I had little experience with it and I had to overcome small challenges during my time at the hackathon. This was also one of my first large team projects with a time constraint, so I had to adjust to consistently checking in with my team and providing updates as necessary.</p>
             <p>One of the biggest challenges was creating the graph that could self-update after a user inputted carb or glucose levels. This required using useState, a pivotal aspect of React. I had no prior knowledge with this, and to make matters worse, I had the challenge of sharing states between components. This aspect of the project was one of the most challenging because I had already been coding for roughly 10 hours that day and my mind was not ready to take on learning new concepts. However, after much trial and error, watching YouTube tutorials, and consulting my team, we were able to complete the graph. </p>
+            <img src={GluChartChart} className="iphone"></img>
+            <p className="caption">An example of what the chart looked like on the final product!</p>
         </div>
         <div className="proj-sec">
             <h2>The Result</h2>
-            <p>After roughly 21 grueling hours, we were able to complete our product! Our app was able to accurately predict glucose levels of a diabetic patient 30 minutes into the future. We focused on allowing users to be able to input carbs, insulin, or their current glucose levels. Although this app is just a prototype, the hope is that it can later be integrated with other apps such as FitBit, Dexcom, or any device that tracks sugar levels on a minute-by-minute basis to allow easier access</p>
+            <p>After roughly 21 grueling hours, we were able to complete our product! Our app was able to accurately predict glucose levels of a diabetic patient 30 minutes into the future. We focused on allowing users to be able to input carbs, insulin, or their current glucose levels. Although this app is just a prototype, the hope is that it can later be integrated with other apps such as FitBit, Dexcom, or any device that tracks sugar levels on a minute-by-minute basis to allow easier access.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oW6Zqqir_FA?si=VrqNKGfq9vN9eub1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p className="caption">A demo video we made at the hackathon demonstrating how our product works!</p>
             <p>After a 2 hour judging period where we were exhausted having had no sleep, to our surprise, <span className="italics">we won</span>! GluChart was proud to take home first place, taking home the award for Best Hack for Social Good and Best Healthcare Hack.</p>
         </div>
         <div className="proj-sec">
             <h2>What I Learned</h2>
             <p>With this being my first experience in a hackathon, this project gave me a lot of self-confidence in my own abilities as a developer. Never would I have thought I could have created a fullstack application in just 24 hours with myself being one of the lead frontend developers. However, even with my limited experience with React, we were able to create a winning product.</p>
             <p>This project taught me so much about frontend, React, and team collaboration. As they say, nothing beats actual experience and I think that speaks volumes. Without this, I don’t think I would be as far as I am today as a developer and I look forward to working on more team projects like this in the future.</p>
+            <img src={GluChartGroup}></img>
         </div>
     </div>
   );

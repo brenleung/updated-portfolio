@@ -90,6 +90,16 @@
     flex-direction: row;
 }
 
+.proj-sec iframe {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.proj-sec .iphone {
+    width: 20%;
+}
+
 .italics {
     font-style: italic;
 }
@@ -115,11 +125,15 @@
         flex-direction: column;
     }
 
-    .proj-sec img {
+    .proj-sec img, .proj-sec .iphone {
         width: 100%;
     }
 
     .proj-sec-img {
         flex-direction: column;
+    }
+
+    .proj-sec iframe {
+        width: 100%;
     }
 }
