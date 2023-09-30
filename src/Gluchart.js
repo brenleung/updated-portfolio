@@ -3,7 +3,6 @@ import './Gluchart.css';
 
 import GluChart from './imgs/gluchart-2.png';
 import GluChartSketch from './imgs/gluchart-first-sketch.png';
-import ColorPalette from './imgs/color-palette.jpg';
 import ApreeHealth from './imgs/apree-health.png';
 import GluChartChart from './imgs/GluchartChart.jpg';
 import iPhoneDesign from './imgs/iPhoneDesign1.png';
