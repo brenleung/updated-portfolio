@@ -17,9 +17,6 @@ import whizkidz from './imgs/whizkidz.png';
 function Projects() {
   return (
     <div>
-    <div className="temp">
-        <p>⚠️ This page is a work in progress. Currently, links are not functional.</p>
-    </div>
     <div className="projects-page drop-in">
         <h3>Projects 👨🏻‍💻</h3>
         <div className="projects-row">

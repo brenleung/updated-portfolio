@@ -43,12 +43,13 @@ function ZLS() {
         </div>
         <div className="proj-sec">
             <h2>The Idea</h2>
-            <p>Going into the 2022-23 school year, I wanted to take on a side project that would allow me to grow as a frontend developer while also being a project that I could be inspired by. Having had worked for my alma mater a month prior and having a growing interest in education, I decided a great idea would be to redesign their website.</p>
+            <p>Going into the 2022-23 school year, I wanted to take on a side project that would allow me to grow as a frontend developer while also being a project that I could be inspired by. The summer prior, I worked for a summer camp called EDMO where I taught game design to elementary schoolers and really took a liking to the world of education.</p>
+            <p>Following this experience, I decided to work for my alma mater, Zion Lutheran. I really enjoyed my experience there and something that I noticed about them was that their website lacked a modern appeal. The website had largely stayed the same throughout the 2010s, and so, I decided to take on this project for my own. With this experience working there and my large interest in both development and education, I thought this would be the perfect project to take on to start the school year.</p>
         </div>
         <div className="proj-sec">
             <h2>The Vision</h2>
             <p>Looking at their old website, I noticed the design style looked very outdated. It featured misplaced logos, large photos, and inconsistent fonts.</p>
-            <img src={OldZLS}></img>
+            <img src={OldZLS} alt="The Old Zion Lutheran website"></img>
             <p className="caption">The old homepage, which featured large photos and various fonts.</p>
             <p>I envisioned a new website for them that would feature a more simplistic design, focused around their main color scheme of white and dark green. One of the biggest draws I wanted was a visually appealing homepage that could keep viewers interested. I came up with a homepage with snap scrolling that would tell users small tidbits about the school, while allowing interested users to keep interacting with the website.</p>
             {/* insert design sketch here */}
@@ -56,7 +57,7 @@ function ZLS() {
         <div className="proj-sec">
             <h2>Lack of Experience</h2>
             <p>Having had almost no prior experience with frontend development (other than creating my first personal portfolio), I had a lot of trouble creating designs from my head to the computer. It required a lot of research and debugging, as there would be misaligned divs, incorrect behavior (like the snap-scrolling not working), and more.</p>
-            <img src={ZLSGif}></img>
+            <img src={ZLSGif} alt="A gif going through the new ZLS snap-scrolling features"></img>
             <p className="caption">A demonstration of the snap-scrolling, once I was able to get it working!</p>
             <p>In addition, it was my first time working with media queries and although I did not make the website accessible through mobile, I had a lot of trouble making it accessible through different media sizes. However, after trial and error and doing research about how media queries worked, I was able to get it done!</p>
         </div>
