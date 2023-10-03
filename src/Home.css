@@ -41,7 +41,7 @@ h2 {
     font-size: 30px;
 }
 
-p, ul li {
+p, ul li, ol li {
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
@@ -89,7 +89,7 @@ p, ul li {
     animation: drop-in 2000ms ease 1000ms backwards;
 }
 
-.drop-in-2 a, ul li {
+.drop-in-2 a, ul li, ol li {
     color: #23596d;
 }
 
