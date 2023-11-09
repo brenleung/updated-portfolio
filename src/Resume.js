@@ -39,6 +39,8 @@ function Resume() {
 
             {currentSec === 1 && (
                 <>
+                <ResumeBox year={"October 2023 - Present"} title={"Co-Founder"} company={"GluChart"} desc={"Created GluChart, an application which aims to provide affordable and accessibel diabetes management through personalized glucose predictions. Headlined the frontend development for mobile and web devices, both on React and React Native."}/>
+                <hr></hr>
                 <ResumeBox year={"March 2023 - Present"} title={"Computer Science Instructor"} company={"WhizKidz Computer Center, Remote"} desc={"Conducted small-group, weekly classes on introductory computer science concepts in Java, Python, and more. Designed and created weekly supplementary lesson material using coding examples and slide decks."}/>
                 <hr></hr>
                 <ResumeBox year={"September 2021 - Present"} title={"Computer Room Consultant Junior"} company={"Information and Educational Technology, Davis"} desc={"Provided hardware and software assistance to the 20000+ UC Davis staff and student that visit the computer lab annually. Guided UC Davis instructors in setting up software and during class times to ensure classes go smoothly. Won Student Employee of the Quarter in March 2023."}/>
