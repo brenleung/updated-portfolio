@@ -39,7 +39,7 @@ function Resume() {
 
             {currentSec === 1 && (
                 <>
-                <ResumeBox year={"October 2023 - Present"} title={"Co-Founder"} company={"GluChart"} desc={"Created GluChart, an application which aims to provide affordable and accessibel diabetes management through personalized glucose predictions. Headlined the frontend development for mobile and web devices, both on React and React Native."}/>
+                <ResumeBox year={"October 2023 - Present"} title={"Co-Founder"} company={"GluChart, Davis"} desc={"Created GluChart, an application which aims to provide affordable and accessibel diabetes management through personalized glucose predictions. Headlined the frontend development for mobile and web devices, both on React and React Native."}/>
                 <hr></hr>
                 <ResumeBox year={"March 2023 - Present"} title={"Computer Science Instructor"} company={"WhizKidz Computer Center, Remote"} desc={"Conducted small-group, weekly classes on introductory computer science concepts in Java, Python, and more. Designed and created weekly supplementary lesson material using coding examples and slide decks."}/>
                 <hr></hr>
