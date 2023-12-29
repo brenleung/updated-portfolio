@@ -1,5 +1,4 @@
 import React from 'react';
-import './IELC.css';
 
 import IELCImg from './imgs/ielc-2.png';
 import SocIcons from './imgs/icons.png';

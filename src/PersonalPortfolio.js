@@ -1,5 +1,4 @@
 import React from 'react';
-import './PersonalPortfolio.css';
 
 import PortfolioImg from './imgs/portfolio.png';
 import PortfolioColorP from './imgs/portoflio-color-palette.png';

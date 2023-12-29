@@ -1,5 +1,4 @@
 import React from 'react';
-import './Asteroids.css';
 
 import AsteroidsPic from './imgs/asteroids.png';
 import AsteroidsGame from './imgs/asteroids-game.png';

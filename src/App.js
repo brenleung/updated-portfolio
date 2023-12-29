@@ -15,6 +15,7 @@ import AgePredictor from './AgePredictor.js';
 import EDMO from './EDMO.js';
 import TKH from './TKH.js';
 import Whizkidz from './Whizkidz.js';
+import BopOrFlop from './BopOrFlop.js';
 
 import Navbar from './components/navbar.js';
 import ScrollToTop from './ScrollToTop.js';
@@ -37,6 +38,7 @@ function App() {
             <Route path="/projects/edmo" element={<EDMO/>}/>
             <Route path="/projects/techknowhow" element={<TKH/>}/>
             <Route path="/projects/whizkidz" element={<Whizkidz/>}/>
+            <Route path="/projects/boporflop" element={<BopOrFlop/>}/>
             <Route path="/about-me" element={<AboutMe/>}/>
             <Route path="/resume" element={<Resume/>}/>
             <Route path="/contact" element={<Contact/>}/>

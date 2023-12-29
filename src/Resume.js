@@ -39,11 +39,13 @@ function Resume() {
 
             {currentSec === 1 && (
                 <>
-                <ResumeBox year={"October 2023 - Present"} title={"Co-Founder"} company={"GluChart, Davis"} desc={"Created GluChart, an application which aims to provide affordable and accessibel diabetes management through personalized glucose predictions. Headlined the frontend development for mobile and web devices, both on React and React Native."}/>
+                <ResumeBox year={"October 2023 - Present"} title={"Co-Founder / Lead Frontend Developer"} company={"GluChart, Davis"} desc={"Created GluChart, an application which aims to provide affordable and accessibel diabetes management through personalized glucose predictions. Headlined the frontend development for mobile and web devices, both on React and React Native."}/>
                 <hr></hr>
-                <ResumeBox year={"March 2023 - Present"} title={"Computer Science Instructor"} company={"WhizKidz Computer Center, Remote"} desc={"Conducted small-group, weekly classes on introductory computer science concepts in Java, Python, and more. Designed and created weekly supplementary lesson material using coding examples and slide decks."}/>
+                <ResumeBox year={"September 2023 - Present"} title={"Teaching Assistant Intern"} company={"North Davis Elementary, Davis"} desc={"Participated in and facilitated small group activities with 4-8 students in English, fitness, math, and art. Aided in activities with students who required one-on-one aid, including billingual/multilingual students."}/>
                 <hr></hr>
                 <ResumeBox year={"September 2021 - Present"} title={"Computer Room Consultant Junior"} company={"Information and Educational Technology, Davis"} desc={"Provided hardware and software assistance to the 20000+ UC Davis staff and student that visit the computer lab annually. Guided UC Davis instructors in setting up software and during class times to ensure classes go smoothly. Won Student Employee of the Quarter in March 2023."}/>
+                <hr></hr>
+                <ResumeBox year={"March 2023 - June 2023"} title={"Computer Science Instructor"} company={"WhizKidz Computer Center, Remote"} desc={"Conducted small-group, weekly classes on introductory computer science concepts in Java, Python, and more. Designed and created weekly supplementary lesson material using coding examples and slide decks."}/>
                 <hr></hr>
                 <ResumeBox year={"August 2022 - September 2023"} title={"Extended Care Assistant"} company={"Zion Lutheran School, San Francisco"} desc={"Supervised 40+ children who are enrolled in daily extended care program. Assisted children with homework needs and managed emotional needs and conflicts as need be."}/>
                 <hr></hr>
