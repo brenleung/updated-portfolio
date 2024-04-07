@@ -39,7 +39,7 @@ function Resume() {
 
             {currentSec === 1 && (
                 <>
-                <ResumeBox year={"January 2024 - Present"} title={"Software Engineer Intern"} company={"UC Davis Computer Science Department, Davis"} desc={"Collaborated on a cross-functional team towards the completion of BeaGL, a glucose prediction application led by professor Sam King, along with 4 other UC Davis student developers and designers towards a UC Davis diabetes study. Engineered onboarding pages and self-updating glucose prediction charts using React Native and complementary frameworks, which communicate effectively with backend APIs. Participated in weekly team sprints, utilizing frequent communication regarding user research, iteration, and debugging"}/>
+                <ResumeBox year={"January 2024 - Present"} title={"Software Engineer Intern"} company={"UC Davis Computer Science Department, Davis"} desc={"Collaborated on a cross-functional team towards the completion of BeaGL, a glucose prediction application led by professor Sam King, along with 4 other UC Davis student developers and designers towards a UC Davis diabetes study. Engineered onboarding pages and self-updating glucose prediction charts using React Native and complementary frameworks, which communicate effectively with backend APIs."}/>
                 <hr></hr>
                 <ResumeBox year={"September 2023 - Present"} title={"Teaching Assistant Intern"} company={"North Davis Elementary, Davis"} desc={"Participated in and facilitated small group activities with 4-8 students in English, fitness, math, and art. Aided in activities with students who required one-on-one aid, including billingual/multilingual students."}/>
                 <hr></hr>
