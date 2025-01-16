@@ -39,6 +39,8 @@ function Resume() {
 
             {currentSec === 1 && (
                 <>
+                <ResumeBox year={"Nov. 2024 - Present"} title={"District Coordinator"} company={"Educational Consulting Services, Inc., Sacramento"} desc={"Facilitates communication, administrative, and technological processes to meet business needs between the California Board of Education and Twin Rivers School District, managing inquiries via phone, email, and other channels. Prepares and distributes invitations, maintains attendance records, and manages payroll and staff databases using Microsoft Excel to support programs serving over 20,000+ eligible students and 100+ teachers"}/>
+                <hr></hr>
                 <ResumeBox year={"June 2024 - Aug. 2024"} title={"Lead Game Design/STEM Instructor"} company={"TechKnowHow Franchises, San Francisco"} desc={"Facilitated lessons on introductory game design using LEGO, Scratch, and robotics for groups of 15-20 elementary students. Edited curriculum and weekly class structure based on class needs to ensure effective reach to students. Maintained classroom order by skillfully managing conflicts and ensuring a structured environment"}/>
                 <hr></hr>
                 <ResumeBox year={"January 2024 - July 2024"} title={"Software Engineer Intern"} company={"UC Davis Computer Science Department, Davis"} desc={"Collaborated on a cross-functional team towards the completion of BeaGL, a glucose prediction application led by professor Sam King, along with 4 other UC Davis student developers and designers towards a UC Davis diabetes study. Engineered onboarding pages and self-updating glucose prediction charts using React Native and complementary frameworks, which communicate effectively with backend APIs."}/>
