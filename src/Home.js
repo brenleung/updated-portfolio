@@ -19,7 +19,7 @@ function Home() {
             </div>
             <div className="text">
                 <div className="overflow-hidden drop-in">
-                    <h3>Hi! 👋 My name is Brendan.</h3>
+                    <h3>Hi! 👋 My name is Brandon.</h3>
                 </div>
                 <div className="overflow-hidden drop-in-2">
                     <p>I'm from <span style={{color: '#AA0000'}}>San Francisco</span> and am a recent graduate from UC Davis with a degree in computer science, specializing in <span className="hover">frontend development</span>, <span className="hover">fullstack development</span>, and <span className="hover">education</span>.</p>
