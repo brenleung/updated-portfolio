@@ -5,7 +5,6 @@ import ConfusionMatrix from './imgs/confusionmatrix.png';
 import Frontend from './imgs/boporflopfrontend.png';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGamepad }from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Asteroids() {
@@ -18,7 +17,7 @@ function Asteroids() {
                 <div className="proj-tags">
                     <p>MACHINE LEARNING</p>
                     <p>PYTHON</p>
-                    <p>TEAM PROJECT</p>
+                    <p>DATA ANALYSIS</p>
                 </div>
             </div>
         </div>

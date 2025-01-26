@@ -38,7 +38,6 @@ function IELC() {
                 <p>Ayaan Puri</p>
                 <p>Emily Ng</p>
                 <p>Darshan Shivakumar</p>
-                <p>and more..</p>
             </div>
             <div className="proj-about-sec">
                 <h2>Tech Stack</h2>
@@ -46,12 +45,6 @@ function IELC() {
                 <p>Node.js</p>
                 <p>HTML/CSS</p>
                 <p>JavaScript</p>
-            </div>
-            <div className="proj-about-sec">
-                <h2>Links</h2>
-                <div className="proj-about-icon">
-                    <a href="https://www.ielctutoring.com/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGlobe} size="2x" className="proj-about-icon"/></a>
-                </div>
             </div>
         </div>
         <div className="proj-sec">
@@ -93,7 +86,6 @@ function IELC() {
           <img src={IELCOverview} style={{ marginBottom: '10px' }} />
           <img src={IELCOverview2}></img>
           <p className="caption">The completed IELC page that I worked on!</p>
-          <p>Going into the 2023-24 school year, I hope I have the ability to work on more team projects in the future!</p>
         </div>
     </div>
   );
